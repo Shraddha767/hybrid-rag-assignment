@@ -453,6 +453,7 @@ EVAL_QUERIES: List[Dict] = [
   - **Latency**: end-to-end time per query (ms).
 - Print per-query and aggregate metrics.
 
+---
 ### 6.2. How to run
 
 From `backend`:
@@ -460,7 +461,7 @@ From `backend`:
 ```powershell
 (venv) PS C:\...\HYBRID_RAG_PROJECT\backend> python evaluation.py
 ```
-
+---
 ### 6.3. Results
 
 ```markdown
