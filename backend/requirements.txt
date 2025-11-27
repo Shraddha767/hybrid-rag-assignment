@@ -1,0 +1,17 @@
+openai
+fastapi
+uvicorn[standard]
+
+pypdf
+
+sentence-transformers
+faiss-cpu
+rank-bm25
+
+numpy
+
+# If you call an external LLM like OpenAI, uncomment this:
+# openai
+
+# Optional but common utilities
+python-dotenv
