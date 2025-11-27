@@ -444,7 +444,7 @@ EVAL_QUERIES: List[Dict] = [
 ]
 
 
-  ```
+
 
 - For each query, call `HybridRAGPipeline.answer_question()` with `final_k=5` and collect the ranked chunk IDs from `result["scores"]`.
 - Compute:
@@ -463,7 +463,7 @@ From `backend`:
 
 ### 6.3. Results
 
-```markdown
+
 **Evaluation Results**
 
 - Number of evaluation queries: 12  
